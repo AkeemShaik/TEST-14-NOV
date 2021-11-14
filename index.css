@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-form {
+    width: 280px;
+    position: absolute;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .login-form h1 {
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid rgb(0, 233, 58);
+    margin-bottom: 50px;
+    padding: 13px;
+  }
+  
+  .textbox {
+    width: 300px;
+    height: 60px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    border-bottom: 1px rgb(60, 255, 0);
+    color: cornsilk;
+  }
+  
+  .textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  
+  .textbox input {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .sub1 {
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+  }
+  
